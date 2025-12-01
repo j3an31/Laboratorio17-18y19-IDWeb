@@ -12,7 +12,7 @@ function datosDePikachu() {
             console.log("Peso:", pikachu.weight);
         })
         .catch(error => {
-            console.error(error);
+            console.error(error.message);
         });
 }
 
